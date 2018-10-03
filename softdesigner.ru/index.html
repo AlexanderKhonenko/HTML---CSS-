@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<!-- Version 2.0 -->
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	
+
+<html>
+	<head>
+		<title>SoftDesigner</title>
+		
+		<meta name="parking" content="regru-rdap">
+		<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="assets/css/main.css" rel="stylesheet" />
+		<link href="images/favicon2.png" rel="shorcut icon" type="image/x-icon" />
+
+
+		<!-- Плавный скролл для якорей -->
+		<script type="text/javascript">
+			$(function(){
+					$("a[href^='#site']").click(function(){
+							var _href = $(this).attr("href");
+							$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+							return false;
+					});
+			});
+		
+			$(function(){
+					$("a[href^='#mail']").click(function(){
+							var _href = $(this).attr("href");
+							$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+							return false;
+					});
+			});
+
+
+			$(function(){
+					$("a[href^='#host']").click(function(){
+							var _href = $(this).attr("href");
+							$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+							return false;
+					});
+			});
+
+			$(function(){
+					$("a[href^='#rent']").click(function(){
+							var _href = $(this).attr("href");
+							$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+							return false;
+					});
+			});
+
+
+			$(function(){
+					$("a[href^='#sell']").click(function(){
+							var _href = $(this).attr("href");
+							$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+							return false;
+					});
+			});
+
+			$(function(){
+					$("a[href^='#about']").click(function(){
+							var _href = $(this).attr("href");
+							$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+							return false;
+					});
+			});
+
+			$(function(){
+					$("a[href^='#tabl']").click(function(){
+							var _href = $(this).attr("href");
+							$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+							return false;
+					});
+			});
+			</script>
+	</head>
+
+	<body class="landing">
+
+		<!-- Хедер и меню -->
+		<header id="header" class="alt" >
+			<h1><a href="index.html">SoftDesigner</a></h1>
+			<div align = 'center'>
+				<a href="#site" class="href" >Сайт</a>
+				<a href="#host" class="href" >Хостинг</a>
+				<a href="#mail" class="href" >Почта</a>
+				<a href="#tabl" class="href" >Таблицы</a>
+			</div>
+		</header>
+
+		<!-- баннер в начале -->
+			<section id="banner">
+				<h2>SoftDesigner</h2>
+				<p>Ваш инструмент для создания сайтов и таблиц без программирования</p>
+				<ul class="actions">
+					<li><a href="#about" class="button big special">Подробнее</a></li>
+				</ul>
+			</section>
+
+		<!--"Статьи" -->
+			<section id="one" class="wrapper style1">
+				<div class="inner" id="site" name='main'>
+					<article class="feature left">
+						<span class="image"><img src="images/1.png" alt="" /></span>
+						<div class="content" id="site">
+							<h2>Ваш сайт на www.softdesigner.ru</h2>
+							<p>
+								Готовые сайты на популярных CMS <br />
+								Конструкторы корпоративных и сайтов визиток: REG.RU, Ecwid
+							</p>
+							<ul class="actions">
+								<li>
+									<a href="reg.html" class="button alt">Далее</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="feature right">
+						<span class="image"><img src="images/4.png" alt="" /></span>
+						<div class="content" id="host" >
+							<h2>Ваш хостинг на нашем сайте</h2>
+							<p>
+								Выберите хостинг в соответствии с требованиями по нагрузке для вашего проекта: <br />
+								Хостинг сайтов для Linux и Windows <br />
+								Серверы VPS <br />
+								Облачный хостинг Jelastic <br />
+							</p>
+							<ul class="actions">
+								<li>
+									<a href="reg.html" class="button alt">Далее</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="feature left">
+						<span class="image"><img src="images/2.png" alt="" /></span>
+						<div class="content" id="mail" >
+							<h2>Корпоративная почта на нашем сайте</h2>
+							<p>
+								Mail.Ru для бизнеса <br />
+								Яндекс.Почта для домена <br />
+								Gmail, GoogleApps для домена <br />
+							</p>
+							<ul class="actions">
+								<li>
+									<a href="reg.html" class="button alt">Далее</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="feature right">
+						<span class="image"><img src="images/host.jpg" alt="" /></span>
+						<div class="content" id="tabl" >
+							<h2>Создать таблицу</h2>
+							<p>
+								Создайте таблицу под ваши нужды с нуля <br />
+								При необходимости, вы сможете поделиться ей  <br />
+								Настроить нужные вам фильтры <br />
+								Загрузить нужный вам шаблон <br />
+							</p>
+							<ul class="actions">
+								<li>
+									<a href="reg.html" class="button alt">Далее</a>
+								</li>
+							</ul>
+						</div>
+					</article>					
+
+
+				</div>
+			</section>
+
+		<!-- О компании -->
+
+			<section id="three" class="wrapper style3 special">
+				<div class="inner" id="about" >
+					<header class="major narrow	" id="about" >
+						<h2>О компании SoftDesigner</h2>
+						<p>SoftDesigner - Ваш инструмент для создания сайтов и таблиц без программирования <br />
+							"<Текст о вашей компании>"
+
+
+						</p>
+					</header>
+				</div>
+			</section>
+	</body>
+</html>

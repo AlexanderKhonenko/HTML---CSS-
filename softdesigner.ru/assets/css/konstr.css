@@ -1,0 +1,198 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700");
+*{
+    margin: 0;
+    padding: 0;
+    outline: none 
+}
+
+html {height: 100%;}
+
+body {
+    background: linear-gradient(134deg, rgba(117, 232, 218, 0.71), rgba(224, 212, 212, 0.26));
+    width: 100%;
+    height: 100%;
+    font-size:1em;
+    font-family: "Railway", Helvetica, sans-serif;
+    line-height: 100%;
+    margin: 0 0 7px;
+
+}
+
+    @media screen and (max-width: 1680px) {
+
+        body, input, select, textarea {
+            font-size: 11pt;
+        }
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        body, input, select, textarea {
+            font-size: 11pt;
+        }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+        body, input, select, textarea {
+            font-size: 12pt;
+        }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        body, input, select, textarea {
+            font-size: 12pt;
+        }
+
+    }
+
+    @media screen and (max-width: 480px){}
+
+a {
+    color: #282828;
+    text-decoration: none;
+    transition: all.6s ease; 
+}
+
+/*a:hover {
+    color: #8b9ff5;
+    text-decoration: none;
+    transition: all.6s ease; 
+}
+
+a:active {
+    color: #8ce4a6; 
+}*/
+
+img {
+    max-width: 100%;
+    height: 100%;
+    width: auto\9;
+}
+
+
+.left{
+    float: left;
+    margin-left: 45px;
+
+}
+ .right{
+     float: right;
+     margin-right: 20px;
+
+ }
+.clear{clear: both;}
+
+
+/* Selection Block */
+::selection {
+    background: #f58b8b; 
+    color: #ffff
+}
+
+header,footer {
+    width: 98%;
+    background-color: #fff;
+    float: left;
+}
+
+header {
+    border-bottom: 2px solid silver;
+    padding: 1%;
+}
+
+#logo {
+    float: left;
+    font-size: 1.3em;
+}
+
+#contact {
+    font-size: 1,5em;
+    margin-left: 20px;
+}
+
+#domainsHrefs a:hover{
+    background-color: #96969b8c;
+}
+
+/* Основные стили для сайта */
+
+#wrapper{
+    float: right;
+    width: 100%;
+}
+
+#wrapper #articles{
+    float: right;
+    width: 100%;
+    margin-left: 10%;
+}
+
+#wrapper #articles article{
+    float: right;
+    width: 96%;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin-top: 25px;
+    margin-right: 2%;
+    margin-left: 2%;
+    min-height: 150px;
+    min-width: 250px;
+}
+
+#wrapper #articles a article p{
+    font-size: 2em;
+    font-family: "Railway"
+}
+
+#wrapper #articles article  p{
+    margin-top: 75px;
+}
+
+
+
+#image {
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 200px;
+    max-height: 200px
+}
+
+
+
+
+/* Стили для футера */
+
+
+hr{
+    display: block;
+    border: 0;
+    height: 1px;
+    border-top: 1px solid silver;
+}
+
+footer {
+    padding: 1%;
+    border-top: 2px solid silver;
+    margin-top: 10 px
+}
+
+#page-wrap:after{
+    content:'';
+    display: block;
+}
+
+footer, #page-wrap:after {height:10px}
+
+#page-wrap {
+    min-height: 94%;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<script src="assets/js/reg.js"></script>
+
+<html>
+  <head>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+    <meta name="parking" content="regru-rdap">
+    <link href="assets/css/reg.css" rel="stylesheet" />
+    <link href="images/favicon2.png" rel="shorcut icon" type="image/x-icon" />
+    <title>SoftDesigner</title>
+  </head>
+
+  <body>
+    <div class="background">
+      <div class="position">
+        <div class="position2">
+          <div class="position3">
+            <div class="text">
+              <h2>Войти</h2>
+              <p>У вас уже есть логин?</p>
+              <button class="button_login" onclick="cambiar_login()">Войти</button>
+            </div>
+          </div>
+                      
+          <div class="col_md_sign_up">
+            <div class="text">
+              <h2>Регистрация</h2>
+               <p>Нет логина?</p>
+                <button class="button_sign_up" onclick="cambiar_sign_up()">Зарегистрироваться</button>
+              </div>         
+            </div>          
+          </div>
+                    
+          <div class="cont_back_info">
+            <div class="cont_img_back_grey">
+              <img src="images/host.jpg" alt="" />
+            </div>
+          </div>
+                    
+          <div class="cont_forms">
+            <div class="cont_img_back_">
+              <img src="images/host.jpg" alt="" />
+            </div>
+                      
+            <div class="cont_form_login">
+              <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">X</i></a>
+              <h2>Войти</h2>
+              <input type="Email" placeholder="E-mail" />
+              <input type="password" placeholder="Пароль" />
+              <a href="profile.html"><button class="button_login" onclick="cambiar_login()">Войти</button></a>
+            </div>
+                      
+            <div class="cont_form_sign_up">
+              <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">X</i></a>
+              <h2>Регистрация</h2>
+              <input type="Email" placeholder="E-mail" />
+              <input type="text" placeholder="Логин" />
+              <input type="password" placeholder="Пароль" />
+              <input type="password" placeholder="Повторите пароль" />
+              <a href="profile.html"><button class="button_sign_up" onclick="cambiar_sign_up()">Зарегистрироваться</button></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
